@@ -1,0 +1,24 @@
+{
+  "name": "accounts_api_client_REST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f ../src/config/dev.env nodemon src/index.js --ext js,graphql --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-schema": "graphql get-schema -p prisma --dotenv ../src/config/dev.env"
+  },
+  "keywords": [],
+  "author": "atjed.com developers",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.0",
+    "prisma": "^1.34.10",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
