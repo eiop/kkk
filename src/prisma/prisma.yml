@@ -4,5 +4,5 @@ secret: ${env:PRISMA_SECRET}
 
 
 generate:
-  - generator: typescript-client
+  - generator: javascript-client
     output: ../generated/prisma-client/
