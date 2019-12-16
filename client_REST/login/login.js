@@ -2,7 +2,7 @@ const express = require('express')
 const var_dump = require('var_dump')
 var _ = require('lodash');
 const app = express()
-const port = 3001
+const port = 4000
 
 const User = [
   {
