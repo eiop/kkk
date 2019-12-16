@@ -34,7 +34,7 @@ passport.use(new LocalStrategy(
     if (getuser.length == 0) {
       return done(null, false, { message: 'Incorrect username.' });
     }
-    return done(null, getuser);
+    return done*(null, getuser);
   }
 ))
 passport.serializeUser(function (User, cb) {
